@@ -123,7 +123,7 @@
   <!-- end of link list -->
   <!-- joint list -->
   <joint name="joint_1" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0 0.037"/>
+    <origin rpy="0 0 0" xyz="0 0 0.103"/>
     <parent link="base_link"/>
     <child link="link_1"/>
     <axis xyz="0 0 -1"/>
