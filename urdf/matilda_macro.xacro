@@ -23,7 +23,7 @@
 	</link>
 	<link name="${prefix}link_1">
 		<visual>
-			<origin xyz="-0.2 0 0" rpy="0 0 0"/>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
 			<geometry>
 				<mesh filename="package://matilda_support/meshes/link_1.stl"/>
 			</geometry>
