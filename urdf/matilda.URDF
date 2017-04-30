@@ -9,7 +9,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/base_link.STL"/>
+        <mesh filename="package://matilda_support/meshes/base_link.stl"/>
       </geometry>
       <material name="matilda_grey">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -17,7 +17,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/base_link.STL"/>
+        <mesh filename="package://matilda_support/meshes/base_link.stl"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -28,7 +28,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_1.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_1.stl"/>
       </geometry>
       <material name="matilda_grey">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -36,7 +36,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_1.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_1.stl"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -47,7 +47,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_2.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_2.stl"/>
       </geometry>
       <material name="matilda_grey">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -55,7 +55,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_2.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_2.stl"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -66,7 +66,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_3.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_3.stl"/>
       </geometry>
       <material name="matilda_grey">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -74,7 +74,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_3.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_3.stl"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -85,7 +85,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_4.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_4.stl"/>
       </geometry>
       <material name="matilda_grey">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -93,7 +93,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_4.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_4.stl"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -104,7 +104,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_5.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_5.stl"/>
       </geometry>
       <material name="matilda_grey">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -112,7 +112,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://matilda_support/meshes/link_5.STL"/>
+        <mesh filename="package://matilda_support/meshes/link_5.stl"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
