@@ -69,12 +69,30 @@
 				<color rgba="0.5 0.5 0.5 1"/>
 			</material>
 		</visual>
+		<visual>
+			<origin xyz="0.18 0 0.027015" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="package://matilda_support/meshes/link_4_old.stl"/>
+			</geometry>
+			<material name="matilda_grey">
+				<color rgba="0.5 0.5 0.5 1"/>
+			</material>
+		</visual>
 		<collision>
 			<geometry>
 				<mesh filename="package://matilda_support/meshes/link_3.stl"/>
 			</geometry>
 			<material name="red">
 				<color rgba="1 0 0 1"/>
+			</material>
+		</collision>
+		<collision>
+			<origin xyz="0.18 0 0.027015" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="package://matilda_support/meshes/link_4_old.stl"/>
+			</geometry>
+			<material name="red">
+				<color rgba="0.5 0.5 0.5 1"/>
 			</material>
 		</collision>
 	</link>
@@ -91,25 +109,6 @@
 		<collision>
 			<geometry>
 				<mesh filename="package://matilda_support/meshes/link_4.stl"/>
-			</geometry>
-			<material name="red">
-				<color rgba="1 0 0 1"/>
-			</material>
-		</collision>
-	</link>
-	<link name="${prefix}link_5">
-		<visual>
-			<origin xyz="0 0 0" rpy="0 0 0"/>
-			<geometry>
-				<mesh filename="package://matilda_support/meshes/link_5.stl"/>
-			</geometry>
-			<material name="matilda_grey">
-				<color rgba="0.5 0.5 0.5 1"/>
-			</material>
-		</visual>
-		<collision>
-			<geometry>
-				<mesh filename="package://matilda_support/meshes/link_5.stl"/>
 			</geometry>
 			<material name="red">
 				<color rgba="1 0 0 1"/>
@@ -141,22 +140,15 @@
 		<axis xyz="0 -1 0"/>
 		<limit lower="-1.4" upper="1.57079632679" effort="0" velocity="1.57079632679"/>
 	</joint>
-	<joint name="${prefix}joint_4" type="fixed">
-		<origin xyz="0.18 0 0.027015" rpy="0 0 0"/>
+	<joint name="${prefix}joint_4" type="revolute">
+		<origin xyz="0.55145 0 0" rpy="0 0 0"/>
 		<parent link="${prefix}link_3"/>
 		<child link="${prefix}link_4"/>
-		<axis xyz="0.99737 0 -0.072536"/>
-		<!-- <limit lower="-3.2" upper="3.2" effort="0" velocity="1.57079632679"/> -->
-	</joint>
-	<joint name="${prefix}joint_5" type="revolute">
-		<origin xyz="0.37145 0 -0.0270150" rpy="0 0 0"/>
-		<parent link="${prefix}link_4"/>
-		<child link="${prefix}link_5"/>
 		<axis xyz="0 1 0"/>
 		<limit lower="-1.57079632679" upper="1.57079632679" effort="0" velocity="1.57079632679"/>
 	</joint>
-	<joint name="${prefix}joint_5-tool0" type="fixed">
-		<parent link="${prefix}link_5"/>
+	<joint name="${prefix}joint_4-tool0" type="fixed">
+		<parent link="${prefix}link_4"/>
 		<child link="${prefix}tool0"/>
 		<origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
 	</joint>
