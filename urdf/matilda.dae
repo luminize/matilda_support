@@ -4,25 +4,18 @@
 		<contributor>
 			<authoring_tool>URDF Collada Writer</authoring_tool>
 		</contributor>
-		<created>2017-06-15T11:49:16.000000</created>
-		<modified>2017-06-15T11:49:16.000000</modified>
+		<created>2017-06-15T13:19:27.000000</created>
+		<modified>2017-06-15T13:19:27.000000</modified>
 		<unit/>
 		<up_axis>Z_UP</up_axis>
 	</asset>
 	<library_visual_scenes id="vscenes">
 		<visual_scene id="vscene" name="URDF Visual Scene">
 			<node id="visual0" name="matilda_support" sid="visual0">
-				<node id="vkmodel0_node1" name="base_link" sid="node1">
+				<node id="vkmodel0_node0" name="base" sid="node0">
 					<translate>0 0 0</translate>
 					<rotate>1 0 0 0</rotate>
-					<instance_geometry url="#gkmodel0_base_link_geom0">
-						<bind_material>
-							<technique_common>
-								<instance_material symbol="mat0" target="#gkmodel0_base_link_geom0_mat"/>
-							</technique_common>
-						</bind_material>
-					</instance_geometry>
-					<node id="vkmodel0_node0" name="base" sid="node0">
+					<node id="vkmodel0_node1" name="base_link" sid="node1">
 						<translate>-0 -0 -0</translate>
 						<rotate>1 0 0 0</rotate>
 						<translate>0 0 0</translate>
@@ -30,82 +23,89 @@
 						<rotate sid="node_base_link-base_axis0">0 0 0 0</rotate>
 						<translate>0 0 0</translate>
 						<rotate>1 0 0 0</rotate>
-					</node>
-					<node id="vkmodel0_node2" name="link_1" sid="node2">
-						<translate>-0 -0 -0</translate>
-						<rotate>1 0 0 0</rotate>
-						<translate>0 0 0.103</translate>
-						<rotate>1 0 0 0</rotate>
-						<rotate sid="node_joint_1_axis0">0 0 -1 0</rotate>
-						<translate>0 0 0</translate>
-						<rotate>1 0 0 0</rotate>
-						<instance_geometry url="#gkmodel0_link_1_geom0">
+						<instance_geometry url="#gkmodel0_base_link_geom0">
 							<bind_material>
 								<technique_common>
-									<instance_material symbol="mat0" target="#gkmodel0_link_1_geom0_mat"/>
+									<instance_material symbol="mat0" target="#gkmodel0_base_link_geom0_mat"/>
 								</technique_common>
 							</bind_material>
 						</instance_geometry>
-						<node id="vkmodel0_node3" name="link_2" sid="node3">
+						<node id="vkmodel0_node2" name="link_1" sid="node2">
 							<translate>-0 -0 -0</translate>
 							<rotate>1 0 0 0</rotate>
-							<translate>0.05 0 0.1</translate>
+							<translate>0 0 0.103</translate>
 							<rotate>1 0 0 0</rotate>
-							<rotate sid="node_joint_2_axis0">0 1 0 0</rotate>
+							<rotate sid="node_joint_1_axis0">0 0 -1 0</rotate>
 							<translate>0 0 0</translate>
 							<rotate>1 0 0 0</rotate>
-							<instance_geometry url="#gkmodel0_link_2_geom0">
+							<instance_geometry url="#gkmodel0_link_1_geom0">
 								<bind_material>
 									<technique_common>
-										<instance_material symbol="mat0" target="#gkmodel0_link_2_geom0_mat"/>
+										<instance_material symbol="mat0" target="#gkmodel0_link_1_geom0_mat"/>
 									</technique_common>
 								</bind_material>
 							</instance_geometry>
-							<node id="vkmodel0_node4" name="link_3" sid="node4">
+							<node id="vkmodel0_node3" name="link_2" sid="node3">
 								<translate>-0 -0 -0</translate>
 								<rotate>1 0 0 0</rotate>
-								<translate>0 0 0.615</translate>
+								<translate>0.05 0 0.1</translate>
 								<rotate>1 0 0 0</rotate>
-								<rotate sid="node_joint_3_axis0">0 -1 0 0</rotate>
+								<rotate sid="node_joint_2_axis0">0 1 0 0</rotate>
 								<translate>0 0 0</translate>
 								<rotate>1 0 0 0</rotate>
-								<instance_geometry url="#gkmodel0_link_3_geom0">
+								<instance_geometry url="#gkmodel0_link_2_geom0">
 									<bind_material>
 										<technique_common>
-											<instance_material symbol="mat0" target="#gkmodel0_link_3_geom0_mat"/>
+											<instance_material symbol="mat0" target="#gkmodel0_link_2_geom0_mat"/>
 										</technique_common>
 									</bind_material>
 								</instance_geometry>
-								<instance_geometry url="#gkmodel0_link_3_geom1">
-									<bind_material>
-										<technique_common>
-											<instance_material symbol="mat0" target="#gkmodel0_link_3_geom1_mat"/>
-										</technique_common>
-									</bind_material>
-								</instance_geometry>
-								<node id="vkmodel0_node5" name="link_4" sid="node5">
+								<node id="vkmodel0_node4" name="link_3" sid="node4">
 									<translate>-0 -0 -0</translate>
 									<rotate>1 0 0 0</rotate>
-									<translate>0.55145 0 0</translate>
+									<translate>0 0 0.615</translate>
 									<rotate>1 0 0 0</rotate>
-									<rotate sid="node_joint_4_axis0">0 1 0 0</rotate>
+									<rotate sid="node_joint_3_axis0">0 -1 0 0</rotate>
 									<translate>0 0 0</translate>
 									<rotate>1 0 0 0</rotate>
-									<instance_geometry url="#gkmodel0_link_4_geom0">
+									<instance_geometry url="#gkmodel0_link_3_geom0">
 										<bind_material>
 											<technique_common>
-												<instance_material symbol="mat0" target="#gkmodel0_link_4_geom0_mat"/>
+												<instance_material symbol="mat0" target="#gkmodel0_link_3_geom0_mat"/>
 											</technique_common>
 										</bind_material>
 									</instance_geometry>
-									<node id="vkmodel0_node6" name="tool0" sid="node6">
+									<instance_geometry url="#gkmodel0_link_3_geom1">
+										<bind_material>
+											<technique_common>
+												<instance_material symbol="mat0" target="#gkmodel0_link_3_geom1_mat"/>
+											</technique_common>
+										</bind_material>
+									</instance_geometry>
+									<node id="vkmodel0_node5" name="link_4" sid="node5">
 										<translate>-0 -0 -0</translate>
 										<rotate>1 0 0 0</rotate>
-										<translate>0 0 0</translate>
-										<rotate>0 1 0 89.99999999971946</rotate>
-										<rotate sid="node_joint_4-tool0_axis0">0 0 0 0</rotate>
+										<translate>0.55145 0 0</translate>
+										<rotate>1 0 0 0</rotate>
+										<rotate sid="node_joint_4_axis0">0 1 0 0</rotate>
 										<translate>0 0 0</translate>
 										<rotate>1 0 0 0</rotate>
+										<instance_geometry url="#gkmodel0_link_4_geom0">
+											<bind_material>
+												<technique_common>
+													<instance_material symbol="mat0" target="#gkmodel0_link_4_geom0_mat"/>
+												</technique_common>
+											</bind_material>
+										</instance_geometry>
+										<node id="vkmodel0_node6" name="tool0" sid="node6">
+											<translate>-0 -0 -0</translate>
+											<rotate>1 0 0 0</rotate>
+											<translate>0 0 0</translate>
+											<rotate>0 1 0 89.99999999971946</rotate>
+											<rotate sid="node_joint_4-tool0_axis0">0 0 0 0</rotate>
+											<translate>0 0 0</translate>
+											<rotate>1 0 0 0</rotate>
+										</node>
 									</node>
 								</node>
 							</node>
@@ -508,32 +508,33 @@
 						</limits>
 					</revolute>
 				</joint>
-				<link sid="base_link" name="base_link">
+				<link sid="base" name="base">
 					<attachment_full joint="kmodel0/base_link-base">
 						<translate>0 0 0</translate>
 						<rotate>1 0 0 0</rotate>
-						<link sid="base" name="base"/>
-					</attachment_full>
-					<attachment_full joint="kmodel0/joint_1">
-						<translate>0 0 0.103</translate>
-						<rotate>1 0 0 0</rotate>
-						<link sid="link_1" name="link_1">
-							<attachment_full joint="kmodel0/joint_2">
-								<translate>0.05 0 0.1</translate>
+						<link sid="base_link" name="base_link">
+							<attachment_full joint="kmodel0/joint_1">
+								<translate>0 0 0.103</translate>
 								<rotate>1 0 0 0</rotate>
-								<link sid="link_2" name="link_2">
-									<attachment_full joint="kmodel0/joint_3">
-										<translate>0 0 0.615</translate>
+								<link sid="link_1" name="link_1">
+									<attachment_full joint="kmodel0/joint_2">
+										<translate>0.05 0 0.1</translate>
 										<rotate>1 0 0 0</rotate>
-										<link sid="link_3" name="link_3">
-											<attachment_full joint="kmodel0/joint_4">
-												<translate>0.55145 0 0</translate>
+										<link sid="link_2" name="link_2">
+											<attachment_full joint="kmodel0/joint_3">
+												<translate>0 0 0.615</translate>
 												<rotate>1 0 0 0</rotate>
-												<link sid="link_4" name="link_4">
-													<attachment_full joint="kmodel0/joint_4-tool0">
-														<translate>0 0 0</translate>
-														<rotate>0 1 0 89.99999999971946</rotate>
-														<link sid="tool0" name="tool0"/>
+												<link sid="link_3" name="link_3">
+													<attachment_full joint="kmodel0/joint_4">
+														<translate>0.55145 0 0</translate>
+														<rotate>1 0 0 0</rotate>
+														<link sid="link_4" name="link_4">
+															<attachment_full joint="kmodel0/joint_4-tool0">
+																<translate>0 0 0</translate>
+																<rotate>0 1 0 89.99999999971946</rotate>
+																<link sid="tool0" name="tool0"/>
+															</attachment_full>
+														</link>
 													</attachment_full>
 												</link>
 											</attachment_full>
@@ -863,10 +864,10 @@
 		<instance_physics_scene url="#pscene"/>
 		<instance_visual_scene url="#vscene"/>
 		<instance_kinematics_scene url="#kscene">
-			<bind_kinematics_model node="visual0/node1">
+			<bind_kinematics_model node="visual0/node0">
 				<param>kscene_kmodel0_inst</param>
 			</bind_kinematics_model>
-			<bind_joint_axis target="node0/node_base_link-base_axis0">
+			<bind_joint_axis target="node1/node_base_link-base_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_base_link-base_axis0</param>
 				</axis>
@@ -874,7 +875,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_base_link-base_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node2/node_joint_1_axis0">
+			<bind_joint_axis target="node0/node2/node_joint_1_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_1_axis0</param>
 				</axis>
@@ -882,7 +883,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_1_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node3/node_joint_2_axis0">
+			<bind_joint_axis target="node0/node1/node3/node_joint_2_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_2_axis0</param>
 				</axis>
@@ -890,7 +891,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_2_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node4/node_joint_3_axis0">
+			<bind_joint_axis target="node0/node1/node2/node4/node_joint_3_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_3_axis0</param>
 				</axis>
@@ -898,7 +899,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_3_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node3/node5/node_joint_4_axis0">
+			<bind_joint_axis target="node0/node1/node2/node3/node5/node_joint_4_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_4_axis0</param>
 				</axis>
@@ -906,7 +907,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_4_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node3/node4/node6/node_joint_4-tool0_axis0">
+			<bind_joint_axis target="node0/node1/node2/node3/node4/node6/node_joint_4-tool0_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_4-tool0_axis0</param>
 				</axis>
