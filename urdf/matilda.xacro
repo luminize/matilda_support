@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<robot name="matilda_support" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="matilda" xmlns:xacro="http://ros.org/wiki/xacro">
 	<xacro:include filename="$(find matilda_support)/urdf/matilda_macro.xacro"/>
 	<xacro:matilda prefix=""/>
 </robot>
