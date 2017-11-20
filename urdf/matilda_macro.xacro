@@ -116,8 +116,8 @@
 		</collision>
 	</link>
 	<link name="${prefix}tool0"/>
-	<link name="${prefix}dummy_1"/>
-	<link name="${prefix}dummy_2"/>
+	<link name="${prefix}link_5"/>
+	<link name="${prefix}link_6"/>
 	<!-- end of link list -->
 
 	<!-- joint list -->
@@ -154,15 +154,15 @@
 		<child link="${prefix}tool0"/>
 		<origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
 	</joint>
-	<joint name="${prefix}dummy_1" type="continuous">
+	<joint name="${prefix}joint_5" type="continuous">
 		<parent link="${prefix}tool0"/>
-		<child link="${prefix}dummy_1"/>
+		<child link="${prefix}link_5"/>
 		<axis xyz="1 0 0"/>
 		<origin xyz="0 0 0" rpy="0 -1.57079632679 0"/>
 	</joint>
-	<joint name="${prefix}dummy_2" type="continuous">
-		<parent link="${prefix}dummy_1"/>
-		<child link="${prefix}dummy_2"/>
+	<joint name="${prefix}joint_6" type="continuous">
+		<parent link="${prefix}link_5"/>
+		<child link="${prefix}link_6"/>
 		<axis xyz="0 0 1"/>
 		<origin xyz="0 0 0" rpy="0 0 0"/>
 	</joint>		
